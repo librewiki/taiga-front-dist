@@ -36,7 +36,7 @@
         "NEW_BULK": "New bulk insert",
         "RELATED_TASKS": "Related tasks",
         "LOGOUT": "Logout",
-        "EXTERNAL_USER": "an external user",
+        "EXTERNAL_USER": "외부 유저",
         "GENERIC_ERROR": "One of our Oompa Loompas says {{error}}.",
         "IOCAINE_TEXT": "Feeling a bit overwhelmed by a task? Make sure others know about it by clicking on Iocaine when editing a task. It's possible to become immune to this (fictional) deadly poison by consuming small amounts over time just as it's possible to get better at what you do by occasionally taking on extra challenges!",
         "CLIENT_REQUIREMENT": "Client requirement is new requirement that was not previously expected and it is required to be part of the project",
@@ -109,7 +109,7 @@
                 "SAT": "토"
             }
         },
-        "SEE_USER_PROFILE": "See {{username }} profile",
+        "SEE_USER_PROFILE": "{{username }}의 플로필 보기",
         "USER_STORY": "User story",
         "TASK": "Task",
         "ISSUE": "Issue",
@@ -236,10 +236,10 @@
             },
             "USER_STORIES": {
                 "NAME": "User Stories",
-                "VIEW_USER_STORIES": "View user stories",
-                "ADD_USER_STORIES": "Add user stories",
-                "MODIFY_USER_STORIES": "Modify user stories",
-                "DELETE_USER_STORIES": "Delete user stories"
+                "VIEW_USER_STORIES": "user stories 보기",
+                "ADD_USER_STORIES": "user stories 추가",
+                "MODIFY_USER_STORIES": "user stories 수정",
+                "DELETE_USER_STORIES": "user stories 삭제"
             },
             "TASKS": {
                 "NAME": "Tasks",
@@ -273,10 +273,10 @@
     },
     "LOGIN": {
         "PAGE_TITLE": "로그인 - Taiga",
-        "PAGE_DESCRIPTION": "Logging in to Taiga, a project management platform for startups and agile developers & designers who want a simple, beautiful tool that makes work truly enjoyable."
+        "PAGE_DESCRIPTION": "Taiga에 로그인하시면 스타트업과 애자일 개발자 & 디자이너를 위한 심플하고 멋진 프로젝트 관리 도구를 이용할 수 있습니다."
     },
     "AUTH": {
-        "INVITED_YOU": "has invited you to join the project",
+        "INVITED_YOU": "가 프로젝트에 당신을 초대했습니다.",
         "NOT_REGISTERED_YET": "아직 가입하지 않으셨나요?",
         "REGISTER": "등록",
         "CREATE_ACCOUNT": "여기서 무료 계정을 만드세요."
@@ -296,7 +296,7 @@
     },
     "REGISTER": {
         "PAGE_TITLE": "등록 - Taiga",
-        "PAGE_DESCRIPTION": "Create your account in Taiga, a project management platform for startups and agile developers & designers who want a simple, beautiful tool that makes work truly enjoyable."
+        "PAGE_DESCRIPTION": "Taiga에 가입하시면 스타트업과 애자일 개발자 & 디자이너를 위한 심플하고 멋진 프로젝트 관리 도구를 이용할 수 있습니다."
     },
     "REGISTER_FORM": {
         "TITLE": "새로운 Taiga계정을 만드세요(*무료)",
@@ -419,8 +419,8 @@
             "EXPORT_BUTTON": "내보내기",
             "EXPORT_BUTTON_TITLE": "프로젝트 내보내기",
             "LOADING_TITLE": "We are generating your dump file",
-            "DUMP_READY": "Your dump file is ready!",
-            "LOADING_MESSAGE": "Please don't close this page.",
+            "DUMP_READY": "덤프파일이 준비되었습니다.",
+            "LOADING_MESSAGE": "이 페이지를 닫지 말아주세요.",
             "ASYNC_MESSAGE": "We will send you an email when ready.",
             "SYNC_MESSAGE": "If the download doesn't start automatically click <a href='{{url}}' download title='Download the dump file'>here</a>.",
             "ERROR": "Our Oompa Loompas have some problems generating your dump. Please try it again.",
@@ -458,7 +458,7 @@
             "PROJECT_DETAILS": "프로젝트 상세",
             "PROJECT_NAME": "프로젝트 이름",
             "PROJECT_SLUG": "Project slug",
-            "TAGS": "Tags",
+            "TAGS": "태그",
             "DESCRIPTION": "Description",
             "RECRUITING": "Is this project looking for people?",
             "RECRUITING_MESSAGE": "Who are you looking for?",
@@ -494,8 +494,8 @@
         },
         "CSV": {
             "SECTION_TITLE_US": "user stories 보고서",
-            "SECTION_TITLE_TASK": "tasks reports",
-            "SECTION_TITLE_ISSUE": "issues reports",
+            "SECTION_TITLE_TASK": "작업 보고",
+            "SECTION_TITLE_ISSUE": "이슈 보고서",
             "DOWNLOAD": "Download CSV",
             "URL_FIELD_PLACEHOLDER": "Please regenerate CSV url",
             "TITLE_REGENERATE_URL": "Regenerate CSV url",
@@ -503,7 +503,7 @@
             "ACTION_REGENERATE": "Regenerate"
         },
         "CUSTOM_FIELDS": {
-            "TITLE": "Custom Fields",
+            "TITLE": "커스텀 필드",
             "SUBTITLE": "Specify the custom fields for your user stories, tasks and issues",
             "US_DESCRIPTION": "User stories custom fields",
             "US_ADD": "Add a custom field in user stories",
@@ -513,7 +513,7 @@
             "ISSUE_ADD": "Add a custom field in issues",
             "FIELD_TYPE_TEXT": "Text",
             "FIELD_TYPE_MULTI": "Multi-line",
-            "FIELD_TYPE_DATE": "Date",
+            "FIELD_TYPE_DATE": "날짜",
             "FIELD_TYPE_URL": "Url"
         },
         "PROJECT_VALUES": {
@@ -564,12 +564,12 @@
             "REPLACEMENT_ROLE": "All the users with this role will be moved to",
             "WARNING_DELETE_ROLE": "Be careful! All role estimations will be removed",
             "ERROR_DELETE_ALL": "You can't delete all values",
-            "EXTERNAL_USER": "External user"
+            "EXTERNAL_USER": "외부 유저"
         },
         "THIRD_PARTIES": {
             "SECRET_KEY": "Secret key",
             "PAYLOAD_URL": "Payload URL",
-            "VALID_IPS": "Valid origin IPs (separated by ,)"
+            "VALID_IPS": "이 IP주소에서 만 가능(,(쉼표)로 구분)"
         },
         "BITBUCKET": {
             "SECTION_NAME": "Bitbucket",
@@ -719,22 +719,22 @@
             "PROJECTS": "프로젝트",
             "PROJECTS_EMPTY": "{{username}} doesn't' have projects yet",
             "CONTACTS": "연락처",
-            "CONTACTS_EMPTY": "{{username}} doesn't have contacts yet",
-            "CURRENT_USER_CONTACTS_EMPTY": "You don't have contacts yet",
+            "CONTACTS_EMPTY": "{{username}}님은 아직 연락처가 없습니다.",
+            "CURRENT_USER_CONTACTS_EMPTY": "아직 연락처를 가지고 있지 않으시네요",
             "CURRENT_USER_CONTACTS_EMPTY_EXPLAIN": "The people with whom you work at Taiga will be your contacts automatically",
-            "REPORT": "Report Abuse",
+            "REPORT": "트롤신고",
             "TABS": {
-                "ACTIVITY_TAB": "Timeline",
-                "ACTIVITY_TAB_TITLE": "Show all the activity of this user",
+                "ACTIVITY_TAB": "타임라인",
+                "ACTIVITY_TAB_TITLE": "이 유적의 활동만 보기",
                 "PROJECTS_TAB": "Projects",
                 "PROJECTS_TAB_TITLE": "List of all projects in which the user is a member",
-                "LIKES_TAB": "Likes",
+                "LIKES_TAB": "좋아요",
                 "LIKES_TAB_TITLE": "List all likes made by this user",
-                "VOTES_TAB": "Votes",
+                "VOTES_TAB": "투표",
                 "VOTES_TAB_TITLE": "List all votes made by this user",
-                "WATCHED_TAB": "Watched",
+                "WATCHED_TAB": "주시",
                 "WATCHED_TAB_TITLE": "List all item watched by this user",
-                "CONTACTS_TAB": "Contacts",
+                "CONTACTS_TAB": "연락처",
                 "CONTACTS_TAB_TITLE": "List all contacts made by this user"
             }
         },
@@ -748,14 +748,14 @@
             "FILTER_TYPE_ALL": "전부",
             "FILTER_TYPE_ALL_TITLE": "모두 보기",
             "FILTER_TYPE_PROJECTS": "프보렉트",
-            "FILTER_TYPE_PROJECT_TITLES": "Show only projects",
+            "FILTER_TYPE_PROJECT_TITLES": "프로젝트만 보기",
             "FILTER_TYPE_USER_STORIES": "Stories",
-            "FILTER_TYPE_USER_STORIES_TITLES": "Show only user stories",
+            "FILTER_TYPE_USER_STORIES_TITLES": "user story만 보기",
             "FILTER_TYPE_TASKS": "Tasks",
-            "FILTER_TYPE_TASK_TITLES": "Show only tasks",
+            "FILTER_TYPE_TASK_TITLES": "task만 보기",
             "FILTER_TYPE_ISSUES": "Issues",
-            "FILTER_TYPE_ISSUES_TITLE": "Show only issues",
-            "EMPTY_TITLE": "It looks like there's nothing to show here."
+            "FILTER_TYPE_ISSUES_TITLE": "issue만 보기",
+            "EMPTY_TITLE": "아무 것도 보여드릴게 없어요"
         }
     },
     "PROJECT": {
@@ -786,7 +786,7 @@
             "KANBAN": "Kanban",
             "ISSUES": "Issues",
             "WIKI": "Wiki",
-            "TEAM": "Team",
+            "TEAM": "팀",
             "MEETUP": "Meet Up",
             "ADMIN": "Admin"
         },
@@ -796,7 +796,7 @@
             "ACTION_CREATE_PROJECT": "Create project",
             "ACTION_IMPORT_PROJECT": "Import project",
             "MANAGE_PROJECTS": "Manage projects",
-            "TITLE_CREATE_PROJECT": "Create project",
+            "TITLE_CREATE_PROJECT": "vmfhwprxm aksemfrl프로젝트 만들기",
             "TITLE_IMPORT_PROJECT": "Import project",
             "TITLE_PRVIOUS_PROJECT": "Show previous projects",
             "TITLE_NEXT_PROJECT": "Show next projects",
@@ -871,7 +871,7 @@
         "WATCH_BUTTON": {
             "BUTTON_TITLE": "Watch this project and set notification policy",
             "WATCH": "Watch",
-            "WATCHING": "Watching",
+            "WATCHING": "주시",
             "COUNTER_TITLE": "{total, plural, one{one watcher} other{# watchers}}",
             "OPTIONS": {
                 "NOTIFY_ALL": "Receive all notifications",
@@ -916,7 +916,7 @@
             "ACTION_SEND": "Send feedback"
         },
         "SEARCH": {
-            "TITLE": "Search",
+            "TITLE": "검색",
             "PLACEHOLDER_SEARCH": "What are you looking for?"
         },
         "ADD_EDIT_SPRINT": {
@@ -974,7 +974,7 @@
         "SECTION_NAME": "User story 상세",
         "LINK_TASKBOARD": "작업 보드",
         "TITLE_LINK_TASKBOARD": "Go to the taskboard",
-        "TOTAL_POINTS": "total points",
+        "TOTAL_POINTS": "총 점수",
         "ADD": "+ Add a new User Story",
         "ADD_BULK": "Add some new User Stories in bulk",
         "PROMOTED": "This US has been promoted from Issue:",
@@ -984,7 +984,7 @@
         "BLOCKED": "This user story is blocked",
         "PREVIOUS": "previous user story",
         "NEXT": "next user story",
-        "TITLE_DELETE_ACTION": "Delete User Story",
+        "TITLE_DELETE_ACTION": "User stories 삭제",
         "LIGHTBOX_TITLE_BLOKING_US": "Blocking us",
         "TASK_COMPLETED": "{{totalClosedTasks}}/{{totalTasks}} tasks completed",
         "ASSIGN": "Assign User Story",
@@ -1001,7 +1001,7 @@
         "TITLE": "코멘트",
         "COMMENT": "코멘트",
         "TYPE_NEW_COMMENT": "Type a new comment here",
-        "SHOW_DELETED": "Show deleted comment",
+        "SHOW_DELETED": "삭제된 코멘트 보기",
         "HIDE_DELETED": "Hide deleted comment",
         "DELETE": "Delete comment",
         "RESTORE": "Restore comment"
@@ -1010,7 +1010,7 @@
         "SHOW_ACTIVITY": "활동 보기",
         "DATETIME": "DD MMM YYYY HH:mm",
         "SHOW_MORE": "+ Show previous entries ({{showMore}} more)",
-        "TITLE": "Activity",
+        "TITLE": "활동",
         "REMOVED": "removed",
         "ADDED": "added",
         "US_POINTS": "US points ({{name}})",
@@ -1021,7 +1021,7 @@
         "SIZE_CHANGE": "Made {size, plural, one{one change} other{# changes}}",
         "VALUES": {
             "YES": "yes",
-            "NO": "no",
+            "NO": "아니",
             "EMPTY": "empty",
             "UNASSIGNED": "unassigned"
         },
@@ -1061,7 +1061,7 @@
     "BACKLOG": {
         "PAGE_TITLE": "백로그 - {{projectName}}",
         "PAGE_DESCRIPTION": "The backlog panel, with user stories and sprints of the project {{projectName}}: {{projectDescription}}",
-        "SECTION_NAME": "Backlog",
+        "SECTION_NAME": "백로그",
         "CUSTOMIZE_GRAPH": "Customize your backlog graph",
         "CUSTOMIZE_GRAPH_TEXT": "To have a nice graph that helps you follow the evolution of the project you have to set up the points and sprints through the",
         "CUSTOMIZE_GRAPH_ADMIN": "Admin",
@@ -1141,7 +1141,7 @@
     },
     "ERROR": {
         "TEXT1": "Something happened and our Oompa Loompas are working on it.",
-        "NOT_FOUND": "Not found",
+        "NOT_FOUND": "찾을 수 없음",
         "NOT_FOUND_TEXT": "Error 404. The page you are looking for no longer exists. Perhaps you can return back to TAIGA homepage and see if you can find what you are looking for.",
         "PERMISSION_DENIED": "Permission denied",
         "PERMISSION_DENIED_TEXT": "You don't have permission to access to this page.",
@@ -1227,7 +1227,7 @@
         "PAGE_DESCRIPTION": "The issues list panel of the project {{projectName}}: {{projectDescription}}",
         "LIST_SECTION_NAME": "Issues",
         "SECTION_NAME": "Issue details",
-        "ACTION_NEW_ISSUE": "+ NEW ISSUE",
+        "ACTION_NEW_ISSUE": "+ 새 이슈",
         "ACTION_PROMOTE_TO_US": "Promote to User Story",
         "PLACEHOLDER_FILTER_NAME": "Write the filter name and press enter",
         "PROMOTED": "This issue has been promoted to US:",
@@ -1324,7 +1324,7 @@
         "EMPTY_DESCRIPTION": "Maybe try one of the tabs above or search again"
     },
     "TEAM": {
-        "PAGE_TITLE": "Team - {{projectName}}",
+        "PAGE_TITLE": "팀 - {{projectName}}",
         "PAGE_DESCRIPTION": "The team panel to show all the members of the project {{projectName}}: {{projectDescription}}",
         "SECTION_NAME": "Team",
         "APP_TITLE": "TEAM - {{projectName}}",
@@ -1349,47 +1349,47 @@
     "USER_SETTINGS": {
         "AVATAR_MAX_SIZE": "[Max. size: {{maxFileSize}}]",
         "MENU": {
-            "SECTION_TITLE": "User Settings",
-            "USER_PROFILE": "User profile",
-            "CHANGE_PASSWORD": "Change password",
-            "EMAIL_NOTIFICATIONS": "Email notifications"
+            "SECTION_TITLE": "유저 설정",
+            "USER_PROFILE": "유저 프로필",
+            "CHANGE_PASSWORD": "비밀번호 변겨ㅕㅇ",
+            "EMAIL_NOTIFICATIONS": "이메일 알림"
         },
         "NOTIFICATIONS": {
-            "SECTION_NAME": "Email Notifications",
-            "COLUMN_PROJECT": "Project",
-            "COLUMN_RECEIVE_ALL": "Receive All",
-            "COLUMN_ONLY_INVOLVED": "Only Involved",
-            "COLUMN_NO_NOTIFICATIONS": "No notifications",
-            "OPTION_ALL": "All",
-            "OPTION_INVOLVED": "Involved",
+            "SECTION_NAME": "이메일 알림",
+            "COLUMN_PROJECT": "프로젝트",
+            "COLUMN_RECEIVE_ALL": "모두ㅜ 받기",
+            "COLUMN_ONLY_INVOLVED": "포함된것만",
+            "COLUMN_NO_NOTIFICATIONS": "알림 없음",
+            "OPTION_ALL": "모두",
+            "OPTION_INVOLVED": "포함됨",
             "OPTION_NONE": "None"
         },
         "POPOVER": {
-            "USER_PROFILE": "User Profile",
-            "CHANGE_PASSWORD": "Change Password",
-            "NOTIFICATIONS": "Notifications",
-            "FEEDBACK": "Feedback",
-            "TITLE_AVATAR": "User preferences"
+            "USER_PROFILE": "유저 프로필",
+            "CHANGE_PASSWORD": "비밀번호 벼ㅕㄴ경",
+            "NOTIFICATIONS": "알림",
+            "FEEDBACK": "피드백",
+            "TITLE_AVATAR": "유저 설정"
         }
     },
     "USER_PROFILE": {
-        "IMAGE_HELP": "The image will be scaled to 80x80px.",
-        "ACTION_CHANGE_IMAGE": "Change",
-        "ACTION_USE_GRAVATAR": "Use default image",
-        "ACTION_DELETE_ACCOUNT": "Delete Taiga account",
+        "IMAGE_HELP": "이미지가 80x80픽셀로 조정됩니다.",
+        "ACTION_CHANGE_IMAGE": "변겨ㅕㅇ",
+        "ACTION_USE_GRAVATAR": "기본 이미지 사요ㅛㅇ",
+        "ACTION_DELETE_ACCOUNT": "Taiga 계정 삭제",
         "CHANGE_EMAIL_SUCCESS": "<strong>Check your inbox!</strong><br />We have sent a mail to your account<br />with the instructions to set your new address",
-        "CHANGE_PHOTO": "Change photo",
+        "CHANGE_PHOTO": "사진 변경",
         "FIELD": {
-            "USERNAME": "Username",
-            "EMAIL": "Email",
-            "FULL_NAME": "Full name",
-            "PLACEHOLDER_FULL_NAME": "Set your full name (ex. Íñigo Montoya)",
-            "BIO": "Bio (max. 210 chars)",
-            "PLACEHOLDER_BIO": "Tell us something about you",
-            "LANGUAGE": "Language",
-            "LANGUAGE_DEFAULT": "-- use default language --",
-            "THEME": "Theme",
-            "THEME_DEFAULT": "-- use default theme --"
+            "USERNAME": "유저명",
+            "EMAIL": "이메ㅔ일ㄹ",
+            "FULL_NAME": "전체 이름",
+            "PLACEHOLDER_FULL_NAME": "이름을 설정해 주세요(ex. 홍길동)",
+            "BIO": "Bio (최대 210바이트)",
+            "PLACEHOLDER_BIO": "뭔가 당신에 대해 말해주세요",
+            "LANGUAGE": "언어",
+            "LANGUAGE_DEFAULT": "-- 기본 언어 사용 --",
+            "THEME": "테마",
+            "THEME_DEFAULT": "-- 기본 테마 사용 --"
         }
     },
     "WIZARD": {
@@ -1466,7 +1466,7 @@
         "US_REMOVED_FROM_MILESTONE": "{{username}} has added the US {{obj_name}} to the backlog",
         "BLOCKED": "{{username}} has blocked {{obj_name}}",
         "UNBLOCKED": "{{username}} has unblocked {{obj_name}}",
-        "NEW_USER": "{{username}} has joined Taiga"
+        "NEW_USER": "{{username}}가 Taiga에 가입하였습니다."
     },
     "LEGAL": {
         "TERMS_OF_SERVICE_AND_PRIVACY_POLICY_AD": "<span>When creating a new account, you agree to our <br /></span><a href=\"{{ termsOfServiceUrl }}\" title=\"See terms of service\" target=\"_blank\">terms of service</a><span> and </span><a href=\"{{ privacyPolicyUrl }}\" title=\"See privacy policy\" target=\"_blank\">privacy policy</a>."
@@ -1475,7 +1475,7 @@
         "PAGE_TITLE": "An external app requires authentication",
         "PAGE_DESCRIPTION": "An external app requires authentication",
         "AUTHORIZATION_REQUEST": "Authorize {{application}} to use your Taiga account?",
-        "LOGIN_WITH_ANOTHER_USER": "Login with another user",
+        "LOGIN_WITH_ANOTHER_USER": "다른 유저로 로그인",
         "AUTHORIZE_APP": "Authorize app",
         "CANCEL": "Cancel"
     },
